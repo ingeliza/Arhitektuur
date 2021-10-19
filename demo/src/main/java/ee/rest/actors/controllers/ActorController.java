@@ -22,7 +22,7 @@ public class ActorController {
 
   @PostMapping("/actors")
   Actor newActor(@RequestBody Actor newActor){
-      return service.save(newActor);
+      return service.saveActor(newActor);
   }
 
   @PutMapping("/actors/{id}")
@@ -30,7 +30,7 @@ public class ActorController {
     return service.findById(id)
     .map(actor -> {
       actor.setName(newActor.getName());
-      actor.setRole(newActor.getRole());
+      actor.setAge(newActor.getAge());
       return service.save(actor);
     })
     .orElseGet(() -> {
