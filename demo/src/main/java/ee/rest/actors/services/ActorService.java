@@ -1,4 +1,4 @@
-package src.main.java.ee.rest.actors.services;
+package ee.rest.actors.services;
 
 public class ActorService {
 }

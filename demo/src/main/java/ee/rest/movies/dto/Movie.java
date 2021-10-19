@@ -1,5 +1,3 @@
-package src.main.java.ee.rest.movies.dto;
-
 import java.time.Year;
 
 
@@ -7,7 +5,7 @@ import java.time.Year;
 public class Movie {
 
     public int id;
-    public string name;
+    public String name;
     public Year year;
 
 }
