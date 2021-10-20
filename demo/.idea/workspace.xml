@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23715ba3-47ea-4953-9c90-6e2159ff61bf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ee/rest/actors/controllers/ActorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ee/rest/actors/controllers/ActorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ee/rest/actors/dto/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ee/rest/actors/dto/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ee/rest/movies/controllers/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ee/rest/movies/controllers/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ee/rest/actors/services/ActorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ee/rest/actors/services/ActorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ee/rest/movies/dto/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ee/rest/movies/dto/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ee/rest/movies/services/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ee/rest/movies/services/MovieService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
