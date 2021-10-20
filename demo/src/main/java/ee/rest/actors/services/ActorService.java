@@ -35,26 +35,26 @@ public class ActorService {
         return actor1;
     }
 
-    public Actor mockNewActor(Actor actor1){
-        actor1.setId(3);
-        actor1.setName("Mari Maasikas");
-        actor1.setAge(19);
-        return actor1;
-    }
+    //public Actor mockNewActor(Actor actor1){
+        //actor1.setId(3);
+        //actor1.setName("Mari Maasikas");
+        //actor1.setAge(19);
+        //return actor1;
+    //}
 
-    public Actor mockUpdateActor(Actor actor1, Integer id){
-        actor1.setId(3);
-        actor1.setName("Mari Männa");
-        actor1.setAge(19);
-        return actor1;
-    }
+    //public Actor mockUpdateActor(Actor actor1, Integer id){
+        //actor1.setId(3);
+        //actor1.setName("Mari Männa");
+        //actor1.setAge(19);
+        //return actor1;
+    //}
 
-    public Actor mockDeleteActor(int id){
-        Actor actor1 = new Actor();
-        actor1.setId(2);
-        actor1.getId();
-        return actor1;
-    }
+    //public Actor mockDeleteActor(int id){
+        //Actor actor1 = new Actor();
+        //actor1.setId(2);
+        //actor1.getId();
+        //return actor1;
+    //}
 
 
 }
