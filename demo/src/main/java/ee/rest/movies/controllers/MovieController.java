@@ -13,12 +13,12 @@ public class MovieController {
 
   @GetMapping("/movies")
   public List<Movie> findAll(){
-    return null;
+    return service.mockMovies();
   }
 
   @GetMapping("/movies/{id}")
-  Movie oneMovie(@PathVariable Long id) {
-      return null;
+  Movie oneMovie(@PathVariable int id) {
+      return service.mockOneMovie(id);
   }
 
   @PostMapping("/movies")
@@ -27,12 +27,12 @@ public class MovieController {
   }
 
   @PutMapping("/movies/{id}")
-  Movie updateMovie(@RequestBody Movie newmovie, @PathVariable Long id) {
+  Movie updateMovie(@RequestBody Movie newmovie, @PathVariable int id) {
     return null;
   }
 
   @DeleteMapping("/movies/{id}")
-  void deleteMovie(@PathVariable Long id) {
+  void deleteMovie(@PathVariable int id) {
 
   }
 

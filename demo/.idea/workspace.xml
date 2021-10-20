@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23715ba3-47ea-4953-9c90-6e2159ff61bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ee/rest/swagger-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ee/rest/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
@@ -13,9 +13,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ee/rest/actors/services/ActorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ee/rest/actors/services/ActorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ee/rest/movies/controllers/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ee/rest/movies/controllers/MovieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ee/rest/movies/services/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ee/rest/movies/services/MovieService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ee/rest/actors/services/ActorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ee/rest/actors/services/ActorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ee/rest/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ee/rest/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ee/rest/movies/controllers/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ee/rest/movies/controllers/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ee/rest/movies/services/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ee/rest/movies/services/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ee/rest/swagger-config.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

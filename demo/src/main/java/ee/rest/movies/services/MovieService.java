@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MovieService {
-    public List<Movie> mockActors(){
+    public List<Movie> mockMovies(){
         List<Movie> movies = new ArrayList<>();
         Movie movie1 = new Movie();
         movie1.setId(1);

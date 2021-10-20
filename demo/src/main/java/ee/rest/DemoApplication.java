@@ -18,6 +18,6 @@ public class DemoApplication {
     @Bean
     public Docket productApi() {
         return new Docket(DocumentationType.SWAGGER_2).select()
-                .apis(RequestHandlerSelectors.basePackage("ee.kool.demokool")).build();
+                .apis(RequestHandlerSelectors.basePackage("ee.rest")).build();
     }
 }
