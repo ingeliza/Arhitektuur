@@ -12,7 +12,7 @@ public class MovieService {
         Movie movie1 = new Movie();
         movie1.setId(1);
         movie1.setName("They are back");
-        //movie1.setYear(34);
+        movie1.setYear(null);
 
         List<Actor> actors = new ArrayList<>();
         Actor actor1 = new Actor();
@@ -29,8 +29,8 @@ public class MovieService {
     public Movie mockOneMovie(Integer id){
         Movie movie1 = new Movie();
         movie1.setId(id);
-        movie1.setName("Merle Saabas");
-        //movie1.setYear(54);
+        movie1.setName("Helped");
+        movie1.setYear(null);
         return movie1;
     }
 }

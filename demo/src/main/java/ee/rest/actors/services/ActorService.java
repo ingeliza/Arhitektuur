@@ -19,7 +19,7 @@ public class ActorService {
         Movie movie1 = new Movie();
         movie1.setId(12);
         movie1.setName("Moonlight");
-        //movie1.setYear();
+        movie1.setYear(null);
         movies.add(movie1);
 
         actor1.setMovies(movies);
@@ -32,6 +32,27 @@ public class ActorService {
         actor1.setId(id);
         actor1.setName("Merle Saabas");
         actor1.setAge(54);
+        return actor1;
+    }
+
+    public Actor mockNewActor(Actor actor1){
+        actor1.setId(3);
+        actor1.setName("Mari Maasikas");
+        actor1.setAge(19);
+        return actor1;
+    }
+
+    public Actor mockUpdateActor(Actor actor1, Integer id){
+        actor1.setId(3);
+        actor1.setName("Mari Männa");
+        actor1.setAge(19);
+        return actor1;
+    }
+
+    public Actor mockDeleteActor(int id){
+        Actor actor1 = new Actor();
+        actor1.setId(2);
+        actor1.getId();
         return actor1;
     }
 
