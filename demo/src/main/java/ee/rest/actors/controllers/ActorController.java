@@ -4,6 +4,7 @@ import java.util.List;
 
 import ee.rest.actors.dto.Actor;
 import ee.rest.actors.services.ActorService;
+import org.springframework.web.bind.annotation.*;
 
 
 public class ActorController {
@@ -12,36 +13,26 @@ public class ActorController {
 
   @GetMapping("/actors")
   public List<Actor> findAll(){
-    return service.findAll();
+    return null;
   }
 
   @GetMapping("/actors/{id}")
   Actor oneActor(@PathVariable Long id) {
-      return service.findById(id);
+      return null;
   }
 
   @PostMapping("/actors")
   Actor newActor(@RequestBody Actor newActor){
-      return service.saveActor(newActor);
+      return null;
   }
 
   @PutMapping("/actors/{id}")
   Actor updateActor(@RequestBody Actor newActor, @PathVariable Long id) {
-    return service.findById(id)
-    .map(actor -> {
-      actor.setName(newActor.getName());
-      actor.setAge(newActor.getAge());
-      return service.save(actor);
-    })
-    .orElseGet(() -> {
-      newActor.setId(id);
-      return service.save(newActor);
-    });
+    return null;
   }
 
   @DeleteMapping("/actors/{id}")
   void deleteActor(@PathVariable Long id) {
-      service.deleteById(id);
   }
 
 }

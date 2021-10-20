@@ -1,8 +1,11 @@
 package ee.rest.actors.dto;
 
+import lombok.Data;
+
+@Data
 public class Actor{
 
-    public @Id @GeneratedValue Long id;
+    public Long id;
     public String name;
     public int age;
 

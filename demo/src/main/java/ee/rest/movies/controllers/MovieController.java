@@ -2,10 +2,9 @@ package ee.rest.movies.controllers;
 
 import java.util.List;
 
-import ee.rest.movies.dto.movie;
 import ee.rest.movies.services.MovieService;
-import ee.rest.movies.services.movieService;
 import ee.rest.movies.dto.Movie;
+import org.springframework.web.bind.annotation.*;
 
 
 public class MovieController {
@@ -14,36 +13,27 @@ public class MovieController {
 
   @GetMapping("/movies")
   public List<Movie> findAll(){
-    return service.findAll();
+    return null;
   }
 
   @GetMapping("/movies/{id}")
   Movie oneMovie(@PathVariable Long id) {
-      return service.findById(id);
+      return null;
   }
 
   @PostMapping("/movies")
   Movie newmovie(@RequestBody Movie newmovie){
-      return service.saveMovie(newmovie);
+      return null;
   }
 
   @PutMapping("/movies/{id}")
   Movie updateMovie(@RequestBody Movie newmovie, @PathVariable Long id) {
-    return service.findById(id)
-    .map(movie -> {
-      movie.setName(newMovie.getName());
-      movie.setYear(newMovie.getYear());
-      return service.save(movie);
-    })
-    .orElseGet(() -> {
-      newMovie.setId(id);
-      return service.save(newMovie);
-    });
+    return null;
   }
 
   @DeleteMapping("/movies/{id}")
   void deleteMovie(@PathVariable Long id) {
-      service.deleteById(id);
+
   }
 
 }

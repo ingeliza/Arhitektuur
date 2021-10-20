@@ -1,4 +1,4 @@
-package src.main.java.ee.rest.movies.services;
+package ee.rest.movies.services;
 
 public class MovieService {
 }
