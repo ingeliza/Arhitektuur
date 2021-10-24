@@ -11,10 +11,34 @@ public class StudentService {
 
         Grades grade = new Grades();
         grade.setId(1);
-        grade.setDate(DateTime.Now);
-        grade.setClassNumber("3a");
+        grade.setGrade("3a");
+        grade.setSubject("matemaatika");
+
+        student.setGrades(grade);
 
         students.Add(student);
-            }
+    }
 
+
+    public Student mockOneStudent{
+        Student student = new Student();
+        student.setId(1);
+        student.setStudentName("Toomas");
+        student.setClassNumber("3a");
+
+        Grades grade = new Grades();
+        grade.setId(1);
+        grade.setGrade("3a");
+        grade.setSubject("matemaatika");
+
+        student.setGrades(grade);
+    }
+
+    public Student updateStudent{
+        String name = "Mari";
+    }
+
+    public deleteStudent{
+
+    }
 }
