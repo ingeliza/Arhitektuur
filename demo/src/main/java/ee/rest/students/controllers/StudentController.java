@@ -1,4 +1,6 @@
 
+//Võetud actorite ja moviede näitest
+
 public class StudentController {
     @GetMapping("/students")
     public List<Student> findAll(){
