@@ -7,8 +7,13 @@ public class StudentService {
         Student student = new Student();
         student.setId(1);
         student.setStudentName("Toomas");
-        student.setSubject("matemaatika");
-        student.setGrade(4);
+        student.setClassNumber("3a");
+
+        Grades grade = new Grades();
+        grade.setId(1);
+        grade.setDate(DateTime.Now);
+        grade.setClassNumber("3a");
+
         students.Add(student);
             }
 
