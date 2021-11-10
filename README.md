@@ -18,6 +18,9 @@ Miinused:
 
 · Puudub võimalus sõnumil käivitada Lambda funktsiooni
 
+
+
+
 Apache Kafka
 
 Plussid:
@@ -36,6 +39,9 @@ Miinused:
 
 · Puudub täielik haldus- ja seiretööriistade komplekt
 
+
+
+
 RabbitMQ
 
 Plussid:
@@ -52,7 +58,11 @@ Miinused:
 
 · Mõned aspektid on liiga tehnilised eriti algajate jaoks
 
+
 Apache Kafkas on võimalus sõnumeid järjestada, kuid RabbitMQ-s see võimalus puudub. Kafkasse jäävad sõnumid alles, kuid RabbitMQs kaob sõnum ära, kui see on loetud.
+
+
+
 
 Githubi link: https://github.com/ingeliza/Arhitektuur/tree/main/kafka/kafka-3.0.0-src
 
